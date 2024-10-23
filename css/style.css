@@ -1,0 +1,85 @@
+*{
+    margin: 0%;padding: 0%;
+    box-sizing: border-box;
+}
+header{
+    
+    height: 100vh;
+    background-image: radial-gradient(red , rgb(120, 0, 0));
+}
+div{
+    margin: 0 60px;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  60px 0;
+}
+.logo{
+    width: 100px;
+}
+.main-nav{
+    list-style: none;
+    display: flex;
+}
+li{
+    display: inline;
+}
+.main-nav li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+.main-nav li a:hover{
+    color: rgb(238, 250, 3);
+}
+.mainimg{
+    width: 20%;
+    display: flex;
+}
+.text-contant{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{
+    text-transform: uppercase;
+    text-shadow: 4px 4px rgb(50, 49, 49);
+    font-size: 100px;
+    color: white;
+}
+span{
+    font-size: 120px;
+}
+.mp{
+    font-size: 25px;
+    line-height: 1.5;
+    color: white;
+    margin-bottom: 40px;
+    width: 60%;
+}
+.imgs{
+    width: 65%;
+    height: 65%;
+  
+
+}
+.f{
+    text-decoration: none;
+    padding: 20px;
+    background-color: yellow;
+    border: solid 2px ;
+    border-radius: 20px;
+}
+.f:hover{
+    color: yellow;
+    text-decoration: none;
+    padding: 20px;
+    background-color:red;
+    border: solid 2px ;
+}
+.social img{
+    width: 80px;
+    height: 80px;
+}
